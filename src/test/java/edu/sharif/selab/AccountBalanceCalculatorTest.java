@@ -42,6 +42,16 @@ public class AccountBalanceCalculatorTest {
         ));
         assertEquals(150, balance);
     }
+
+    @Test
+    void testWithdrawalAmountIsGreaterThanBalance() {
+        int balance = AccountBalanceCalculator.calculateBalance(Arrays.asList(
+                new Transaction(TransactionType.DEPOSIT, 200),
+                new Transaction(TransactionType.WITHDRAWAL, 300)
+        ));
+        assertEquals(200, balance);
+    }
+
     @Test
     void testZeroAmountTransaction() {
         int balance = AccountBalanceCalculator.calculateBalance(Arrays.asList(
