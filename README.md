@@ -10,6 +10,7 @@
 ![photo_1_lab](https://github.com/user-attachments/assets/71e8d186-9550-4184-880b-1d89b96cc4fc)
 فیکس ارور با اضافه کردن شرط چک کردن عدم موجود منفی :
 ![photo_2_lab](https://github.com/user-attachments/assets/e972c1e5-5cd1-47a9-bb50-ae837515f9f9)
+
 پاس شدن تست :
 ![photo_3_lab](https://github.com/user-attachments/assets/6e9ab4cb-35c7-47fa-b960-b2af936144ae)
 
